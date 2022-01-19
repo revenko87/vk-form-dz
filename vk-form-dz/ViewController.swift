@@ -45,7 +45,7 @@ private extension ViewController {
         guard let loginText = Field.text, let passwordText = loginTextField.text else {
             return false
         }
-        let isValidData = loginText == "hello" && passwordText == "12345"
+        let isValidData = loginText == "" && passwordText == ""
         return isValidData
      
         }
